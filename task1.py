@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('Screenshot 2025-08-30 232517.png')
+img = cv.imread('Enter filename here')
 #changing the image into HSV for better color segmentation
 hsvimg = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 
